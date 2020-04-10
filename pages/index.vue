@@ -1,43 +1,42 @@
 <template lang="pug">
 div
-  div(class="header")
-    div.nav
-      div(class="buts")
-        img(src="../assets/img/LOGO.png" height=70)
-        div.buts.item
-          img(src="../assets/img/Header/Vector.png" width=32 height=32)
-          a.buts.item.text Апгрейд
-        div.buts.item
-          img(src="../assets/img/Header/Top.png" width=32 height=32)
-          a.buts.item.text Битва за скин
-        div.buts.item
-          img(src="../assets/img/Header/Items.png" width=32 height=32)
-          a.buts.item.text Предметы
-        div.buts.item
-          img(src="../assets/img/Header/Games.png" width=32 height=32)
-          a.buts.item.text Игры
-      div(class="lk")
-        div.lk.user
-          img(src="../assets/img/Header/Ава.png" height=58 width=57)
-          div.lk.user.info
-            a(style="font-weight:300;") Aska.again
-            a(style="font-weight:600;") 276.76 ₽
-        div.lk.yelbut
-          a + Пополнить
-        img(src="../assets/img/Header/exit.png" width=27 height=27 style="margin-right: 25px;")
-  div.footer
-    div.footer.line
-    div.panel
-      div.panel.leftside
+  .header
+    ul.buts
+      img(src="../assets/img/LOGO.png" height=70)
+      li.buts
+        img(src="../assets/img/Header/Vector.png" width=32 height=32)
+        a.buts_text Апгрейд
+      li.buts
+        img(src="../assets/img/Header/Top.png" width=32 height=32)
+        a.buts_text Битва за скин
+      li.buts
+        img(src="../assets/img/Header/Items.png" width=32 height=32)
+        a.buts_text Предметы
+      li.buts
+        img(src="../assets/img/Header/Games.png" width=32 height=32)
+        a.buts_text Игры
+    .lk
+      .user
+        img(src="../assets/img/Header/Ава.png")
+        .user_info
+          a(style="font-weight:300;") Aska.again
+          a(style="font-weight:600;") 276.76 ₽
+      .lk_but
+        a + Пополнить
+      img(src="../assets/img/Header/exit.png" width=27 height=27 style="margin-right: 25px;")
+  .footer
+    .footer_line
+    .panel
+      .leftside
         img(src="../assets/img/LOGO.png" height=70 style="    filter: alpha(Opacity=50);opacity: 0.5; ")
-        div.panel.leftside.item
+        .leftside_item
           a FAQ
-        div.panel.leftside.item
+        .leftside_item
           a Контакты
-        div.panel.leftside.item
+        .leftside_item
           a Пользовательское соглашение
-      div.panel.rightside
-          a tech_mail@mail.com
+      .rightside
+        a tech_mail@mail.com
 </template>
 
 <script>
@@ -58,7 +57,7 @@ export default {
   width: 100%;
   flex-direction: column;
 }
-.footer .line{
+.footer_line{
   position: relative;
   top:0;
   height: 7px;
@@ -71,23 +70,25 @@ export default {
   align-items: center;
   justify-content: space-between;
 }
-.panel .leftside{
+.leftside{
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
-  margin-left: 20px;
-  font: 14px/16px arial, helvetica, sans-serif;
+  margin-left: 19px;
+  font-family: Proxima Nova;
   font-style: normal;
   font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
   color: #FFFFFF;
   padding: 6px;
 }
-.panel .leftside .item{
+.leftside_item{
   display: flex;
   margin-left: 47px;
 }
-.panel .rightside{
+.rightside{
   font: 14px/16px arial, helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -95,7 +96,7 @@ export default {
   padding: 6px;
   margin-right: 55px;
 }
-.nav{
+.buts ul{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -104,8 +105,10 @@ export default {
   display: flex;
   align-items: center;
   flex-direction: row;
+  padding: 25px;
+  padding-right:0px;
 }
-.lk .yelbut{
+.lk_but{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,24 +117,31 @@ export default {
   background: #FFBC00;
   box-shadow: 0px 4px 4px #35007A;
   border-radius: 25px;
-  font: 14px/16px arial, helvetica, sans-serif;
+  font-family: Proxima Nova;
   font-style: normal;
   font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
   color: #000000;
   margin-right: 25px;
 }
-.lk .user{
+.user{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  align-items: center;
+  padding: 7px;
 }
-.lk .user .info{
+.user_info{
+  display: flex;
   flex-direction: column;
   margin-left: 14px;
-  font: 14px/16px arial, helvetica, sans-serif;
+  font-family: Proxima Nova;
   font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
   color: #FFFFFF;
-  padding: 6px;
   margin-right: 25px;
 }
 .header {
@@ -139,28 +149,40 @@ export default {
   background: radial-gradient(50% 50% at 50% 100%, rgba(88, 9, 199, 0.86) 0%, rgb(75, 3, 168) 100%);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .buts{
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   flex-direction: row;
-  margin-left: 20px;
+  padding-left: 0;
+  margin-left: 19px;
 }
-.buts .item {
+.buts li {
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-  font: 14px/16px arial, helvetica, sans-serif;
+  font-family: Proxima Nova;
   font-style: normal;
   font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
   color: #FFFFFF;
-  padding: 6px;
+  padding: 17px;
 }
-.buts .item .text{
+.buts_text{
   margin: 0 6px;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../assets/fonts/ProximaNova-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 </style>
 
