@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b7cb312-4236-4826-948f-eb4c1f617d0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/ProximaNova-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Header/Games.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Header/Items.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Header/Top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Header/Vector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Header/exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Header/Ава.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Header/Оформление авы.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/LOGO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/nav-item.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,20 +40,24 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="prettierjs.PrettierConfiguration.Package" value="F:\010Developer\Vue_apps\keis\node_modules\prettier" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\010Developer\Vue_apps\keis\assets\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\010Developer\Vue_apps\keis\static" />
       <recent name="F:\010Developer\Vue_apps\keis\assets\img\Header" />
       <recent name="F:\010Developer\Vue_apps\keis\assets\img" />
       <recent name="F:\010Developer\Vue_apps\keis\assets\img\Nav" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\010Developer\Vue_apps\keis\assets\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -67,7 +86,16 @@
       <workItem from="1585210494402" duration="10596000" />
       <workItem from="1585244929576" duration="9536000" />
       <workItem from="1586512918867" duration="4243000" />
-      <workItem from="1586535029424" duration="5913000" />
+      <workItem from="1586535029424" duration="6672000" />
+      <workItem from="1586601847851" duration="2119000" />
+      <workItem from="1586606885597" duration="2470000" />
+      <workItem from="1587233560313" duration="265000" />
+      <workItem from="1587233846626" duration="4136000" />
+      <workItem from="1587289524422" duration="263000" />
+      <workItem from="1587631725399" duration="3464000" />
+      <workItem from="1587653170139" duration="3860000" />
+      <workItem from="1587717098060" duration="599000" />
+      <workItem from="1587753556125" duration="4327000" />
     </task>
     <servers />
   </component>
