@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b7cb312-4236-4826-948f-eb4c1f617d0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/hypno.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/ProximaNova-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Group.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Header/Games.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Header/Items.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Header/Top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Header/Vector.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Header/exit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Header/Ава.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Header/Оформление авы.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/LOGO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/nav-item.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,7 +82,12 @@
       <workItem from="1587631725399" duration="3464000" />
       <workItem from="1587653170139" duration="3860000" />
       <workItem from="1587717098060" duration="599000" />
-      <workItem from="1587753556125" duration="4327000" />
+      <workItem from="1587753556125" duration="5516000" />
+      <workItem from="1587810114357" duration="841000" />
+      <workItem from="1587832713496" duration="2347000" />
+      <workItem from="1587929577096" duration="600000" />
+      <workItem from="1587972316814" duration="2769000" />
+      <workItem from="1589383035129" duration="5187000" />
     </task>
     <servers />
   </component>

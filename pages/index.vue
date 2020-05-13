@@ -1,15 +1,17 @@
 <template lang="pug">
   div
     Header
+    Hypno
     Footer
 </template>
 
 <script>
 import Footer from '../components/footer.vue'
 import Header from '../components/header.vue'
+import Hypno from '../components/hypno.vue'
 export default {
   components: {
-      Footer, Header
+      Footer, Header, Hypno
   }
 }
 </script>

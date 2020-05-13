@@ -3,16 +3,12 @@
     ul.buts
       img(src="../static/img/LOGO.png" height=70)
       li.buts
-        img(id="arrow" src="../static/img/Header/Vector.png" @mouseover="ChangeImage('arrow','../static/img/Header/Items.png')"  @mouseout="ChangeImage('arrow','../static/img/Header/Vector.png')" width=32 height=32)
         a.buts_text Апгрейд
       li.buts
-        img(src="../static/img/Header/Top.png" width=32 height=32)
         a.buts_text Битва за скин
       li.buts
-        img(src="../static/img/Header/Items.png" width=32 height=32)
         a.buts_text Предметы
       li.buts
-        img(src="../static/img/Header/Games.png" width=32 height=32)
         a.buts_text Игры
     .topright
       .user
@@ -67,6 +63,13 @@
   line-height: 19px;
   color: #FFFFFF;
 }
+.buts li :before{
+  content: url("../static/img/Header/Top.png");
+  display: inline;
+  vertical-align: middle;
+  align-items: center;
+  margin-right: 10px;
+}
 
 .buts ul{
   display: flex;
@@ -109,7 +112,6 @@
 .buts_text{
   margin: 0 6px;
 }
-
 .topright{
   display: flex;
   align-items: center;
