@@ -2,6 +2,8 @@
   div
     Header
     Hypno
+    .a
+      a There`s no bugs here
     Footer
 </template>
 
@@ -23,5 +25,14 @@ export default {
   font-style: normal;
   font-weight: normal;
 }
+  .a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;;
+  }
 </style>
 

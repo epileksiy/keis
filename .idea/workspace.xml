@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b7cb312-4236-4826-948f-eb4c1f617d0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/hypno.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hypno.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/hypno.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +84,7 @@
       <workItem from="1587832713496" duration="2347000" />
       <workItem from="1587929577096" duration="600000" />
       <workItem from="1587972316814" duration="2769000" />
-      <workItem from="1589383035129" duration="5187000" />
+      <workItem from="1589383035129" duration="5430000" />
     </task>
     <servers />
   </component>
@@ -106,5 +103,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
