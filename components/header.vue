@@ -70,7 +70,10 @@
   align-items: center;
   margin-right: 10px;
 }
-
+.buts li:hover{
+  background: radial-gradient(50% 50% at 50% 100%, rgba(120, 20, 199, 0.7) 0%, rgba(75, 3, 168, 0.8) 100%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
 .buts ul{
   display: flex;
   flex-direction: row;
@@ -107,6 +110,7 @@
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
+  height: 100%;
 }
 
 .buts_text{
