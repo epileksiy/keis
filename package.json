@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "nuxt": "^2.0.0",
-    "pug": "^2.0.4"
+    "pug": "^3.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
